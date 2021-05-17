@@ -1,0 +1,44 @@
+﻿Github: https://github.com/wiz64/Crayon-Telegram-ProfileBot
+Script Authors : wiz64 & PHP_New/Uz_Prime
+
+Love from Indian 🇮🇳 & Uzbekistan 🇺🇿
+
+Contact : Telegram @wiz64bot | https://t.me/wiz64bot
+Donate : Telegram @wiz64 | https://t.me/wiz64
+
+# How to Setup
+## Requirements-
+	1) Telegram Account
+	2) PHP Hosting/WebServer
+	3) Domain / sub-domain (optional)
+## Step-1) Prepare Server
+### Getting Hosting 
+
+There are many free web hosting Servers Available like -
+infinityfree.net (Tested)
+
+Note** - I am not related to them in any way, I am just a user there like you
+	 I will not recommend freehosting
+	 They have very Serious Limitations and You don't know what they"ll do to your data
+	 A good Webhosting costs roughly $1.5 USD.
+
+### Connect Domain to Host
+You can then connect domain using cloudflare or directly(or NS record of DNS) to Hosting Server
+and then add to cpanel
+
+### Config
+Now put all the script files into a new folder (eg. CrTgProfilebot)
+Note** - Keep directory listing off, else someone may get your Account Banned
+
+Then edit index.php using any text editor (like notepad++)
+Also replace the image files
+Then try to visit the script using any web browser
+Login there as usual Phone no. and TG in-app OTP
+
+### Setup Auto execute
+you can use cron-job.org for free
+or maybe cpanel cron-job.
+
+WARNING! - Don't run the scripts too frequently (like every 1 minute)
+Run once per 30 or 60 minutes
+ELSE YOU MAY GET BAN FROM TELEGRAM ! I WILL NOT BE RESPONSIBLE FOR THAT !
