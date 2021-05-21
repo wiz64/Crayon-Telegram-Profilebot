@@ -18,7 +18,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-echo "Session Success !<br>";
+echo "\n Session Success !<br>";
 date_default_timezone_set('Asia/Kolkata'); /* Your Time Zone Here*/
 $time= date('h A'); echo "Time is : $time<br>";
 $kun=date('d-m-y');
@@ -57,8 +57,9 @@ $txt = $a;
 // Get center coordinates of image
   $centerX = $width / 2;
   $centerY = $height / 2;
-// Get size of text
-  list($left, $bottom, $right, $top) = imageftbbox(100, 0, $font, $txt);
+  // Get size of text
+$tsize = 0.20 * $height;
+  list($left, $bottom, $right, $top) = imageftbbox($tsize, 0, $font, $txt);
 // Determine offset of text
   $left_offset = ($right - $left) / 2;
   $top_offset = ($bottom - $top) / 2;
@@ -68,8 +69,8 @@ $txt = $a;
 // Add text to image
 echo "x:$x ; y:$y";
 echo "<br>USED IMAGE :<br><img style=\"width:100px;height:100px;\" src='$soat_jpg'>";
-
-imagettftext($img, 120, 0, $x,$y, $oq, $font, $txt);
+echo "\n Text size is - $tsize \n";
+imagettftext($img, $tsize, 0, $x,$y, $oq, $font, $txt);
 imagejpeg($img,"goto.jpg");
 //header ('location: goto.jpg');
 }
