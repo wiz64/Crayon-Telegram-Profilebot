@@ -1,0 +1,6 @@
+<Files "session.madeline">  
+  Require all denied
+</Files>
+<Files "session.madeline.lock">  
+  Require all denied
+</Files>
