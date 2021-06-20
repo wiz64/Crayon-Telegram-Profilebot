@@ -56,4 +56,4 @@ Developer - `WIZ64 / MrCrayon / Sumit K Sharma `
 Based on `MadelineProto PHP Telegram API Library`
 Concept by `@PHP_New`
 
-Love from INDIA 🇮🇳 & Uzbekistan
+Love from INDIA 🇮🇳 
